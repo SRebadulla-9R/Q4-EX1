@@ -1,0 +1,79 @@
+body {
+  background-color: #f5f5f5;
+  font-family: 'Gaegu', 'Gochi Hand', cursive;
+  color: #604652;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #735557;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 1px solid #97866A;
+  width: 60%;
+  margin: 20px auto;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 20px auto;
+  color: #735557;
+}
+
+img {
+  width: 100px;
+  margin: 20px auto;
+  display: block;
+}
+
+.container {
+  background-color: #97866A;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 30px auto;
+  box-shadow: 0 0 10px rgba(96, 70, 82, 0.2);
+  color: white;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 2px solid #604652;
+  border-radius: 5px;
+}
+
+.container div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #604652;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  min-width: 100px;
+}
+
+button:hover {
+  background-color: #735557;
+}
+
